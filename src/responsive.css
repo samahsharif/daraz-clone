@@ -1,0 +1,102 @@
+
+@media (max-width:1024px) {
+    .mart-list .mart{
+        width: auto;
+    }
+    .mart-list a{
+        margin-left: 0;
+        margin-right: 0;
+    }
+   .lg-w{
+    width: 23%;
+   }
+   .res-width{
+    display: flex;
+   flex-direction: column;
+   }
+   .bg-img iframe{
+    width: 500px;  
+  }
+  .nav-list{
+    width: 30%;
+  }
+  .carousel{
+    width: 80%;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    background: none ;
+    margin: 82px 0px ;
+}
+    
+}
+@media (max-width:991px) {
+    
+     .header-top{
+      display: none;
+    } 
+    header{
+        background-color: #f5f5f5;
+        position: absolute;
+        box-shadow: none;
+    }
+    .input-group{
+        top: 20px;
+    z-index: 1;
+    width: 50%;
+    position: absolute;
+    }
+    .header-bottom{
+        flex-direction: column;
+    }
+    .header-bottom .display-bottom{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+    .lg-w{
+        width: 23%;
+    }
+    .res-width{
+        display: flex;
+       flex-direction: column;
+       
+    }
+   .main-sec{
+    padding-top: 0;
+   }
+    .card-sec{
+       padding-top: 68px;
+    }
+    .single-sec{
+        padding-top: 68px;
+    }
+    .w-res{
+        width: 66%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .header-top{
+        display: none;
+    }
+    .header-bottom .display-bottom{
+        display: none;
+    }
+    .mart-list a{
+        margin-left: 0;
+       
+    }
+  }
+  @media (max-width:640px) {
+    .mart-list nav a{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .lg-w{
+        width: 48%;
+    }
+    .lg-w img{
+        width: 253px;
+    }
+    
+    }
