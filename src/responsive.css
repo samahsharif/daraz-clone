@@ -42,7 +42,7 @@
     .input-group{
         top: 20px;
     z-index: 1;
-    width: 50%;
+    /* width: 50%; */
     position: absolute;
     }
     .header-bottom{
@@ -83,8 +83,7 @@
         display: none;
     }
     .mart-list a{
-        margin-left: 0;
-       
+        margin-left: 0; 
     }
   }
   @media (max-width:640px) {
@@ -92,11 +91,20 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .mart-list nav a .img-fluid{
+        width: 35px;
+    }
+    .mart-list nav a span{
+        font-size: 10px;
+    }
     .lg-w{
         width: 48%;
     }
     .lg-w img{
         width: 253px;
     }
-    
+    .carousel-control-next, .carousel-control-prev{
+        background: none ;
+        margin: 42px 0px ;
+    }
     }

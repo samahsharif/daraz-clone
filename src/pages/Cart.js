@@ -58,8 +58,8 @@ function Cart() {
     <>
 
       <div className="card-sec container mx-auto ">
-        <div className="flex ">
-          <div className="w-2/3 mt-0 mr-2 ">
+        <div className="flex  row">
+          <div className="lg:w-2/3  mt-0  ">
             <div className="flex justify-between border-b pb-8 bg-white mb-2 p-3">
               <h1 className="delivery-heading  text-xs">SELECT ALL</h1>
               <h2 className="delivery-heading  text-xs"><i class="fa fa-trash me-2" aria-hidden="true"></i>DELETE</h2>
@@ -106,7 +106,7 @@ function Cart() {
 
 
           </div>
-          <div className="w-1/3  bg-white py-2 px-3  m-0 ">
+          <div className="lg:w-1/3 mt-2  bg-white py-2 px-3  m-0 ">
             <h1 className="font-medium text-lg mb-3 dec-heading ">Order Summary</h1>
             <div className="flex justify-between ">
               <span className=" text-sm delivery-heading ml-0">Subtotal ({total * 10})</span>

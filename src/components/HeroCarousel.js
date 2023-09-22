@@ -193,41 +193,41 @@ function HeroCarousel() {
         </div>
         </div>
         </section>
-        <section className="mart-list mt-3">
-  <div className="mart container mx-auto flex flex-col  items-center w-5/6 bg-white p-3 rounded-lg">
+        <section className="mart-list mt-3 overflow-hidden">
+  <div className="mart container mx-auto flex   items-center bg-white p-2 rounded-lg">
     
     <nav className="  md:border-gray-400	flex items-center text-base justify-center">
             <NavLink className=" text-gray-500  " to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/1440c427-d3fe-49f7-aa90-09c8eb0b84ea.png" ></img>
-              <span className=' ms-4 '>Mart</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/1440c427-d3fe-49f7-aa90-09c8eb0b84ea.png" className='img-fluid' ></img>
+              <span className='  flex justify-center items-center'>Mart</span>
             </NavLink>
             <NavLink className="text-gray-500" to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/4f250051-aac7-46bd-9bea-c5b836dea844.png"></img>
-              <span className=' ms-4 '>Fashion</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/4f250051-aac7-46bd-9bea-c5b836dea844.png" className='img-fluid'></img>
+              <span className=' flex justify-center items-center '>Fashion</span>
             </NavLink>
             <NavLink className="text-gray-500 " to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/0ed92f69-d596-458b-bcd6-8d2bb69ef911.png"></img>
-              <span className=' ms-4 '>Beauty</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/0ed92f69-d596-458b-bcd6-8d2bb69ef911.png" className='img-fluid'></img>
+              <span className=' flex justify-center items-center'>Beauty</span>
             </NavLink>
             <NavLink className="text-gray-500 " to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/d85f0ced-6459-455a-8504-150655bf948c.png" ></img>
-              <span className=' ms-4 '>Home</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/d85f0ced-6459-455a-8504-150655bf948c.png" className='img-fluid'></img>
+              <span className=' flex justify-center items-center'>Home</span>
             </NavLink>
             <NavLink className="text-gray-500" to="/">
-              <img src='https://icms-image.slatic.net/images/ims-web/9f2cf12a-3899-423e-9273-c752acafa387.png' ></img>
-                <span className=' ms-4 '>Daraz</span>
+              <img src='https://icms-image.slatic.net/images/ims-web/9f2cf12a-3899-423e-9273-c752acafa387.png' className='img-fluid'></img>
+                <span className=' flex justify-center items-center'>Daraz</span>
             </NavLink>
             <NavLink className="text-gray-500" to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/cc89e68e-c809-4638-a5a6-2dc7e450d2a1.png" ></img>
-              <span className=' ms-4 '>Free</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/cc89e68e-c809-4638-a5a6-2dc7e450d2a1.png" className='img-fluid'></img>
+              <span className=' flex justify-center items-center'>Free</span>
             </NavLink>
             <NavLink className="text-gray-500" to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/62624b46-f8ca-43b7-a5fa-1d31920a6eb5.png" ></img>
-              <span className=' ms-4 '>New </span>
+              <img src="https://icms-image.slatic.net/images/ims-web/62624b46-f8ca-43b7-a5fa-1d31920a6eb5.png" className='img-fluid' ></img>
+              <span className=' flex justify-center items-center'>New </span>
             </NavLink>
             <NavLink className="text-gray-500 " to="/">
-              <img src="https://icms-image.slatic.net/images/ims-web/a13edb2b-61bf-4dec-a410-f85b63d41490.png" ></img>
-              <span className=' ms-4 '>Price</span>
+              <img src="https://icms-image.slatic.net/images/ims-web/a13edb2b-61bf-4dec-a410-f85b63d41490.png" className='img-fluid' ></img>
+              <span className='flex justify-center items-center '>Price</span>
             </NavLink>
             
     </nav>
